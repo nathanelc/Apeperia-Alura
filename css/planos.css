@@ -97,13 +97,34 @@
     border-color: var(--planos-cartao-start);
 }
 
+.cartao__botao--start:hover {
+    background-color: var(--planos-cartao-start);
+    border-color: white;
+    color: white
+}
+
 .cartao__botao--ultra {
     border-color: var(--planos-cartao-ultra);
+}
+
+.cartao__botao--ultra:hover {
+    background-color: var(--planos-cartao-ultra);
+    border-color: white;
+    color: white
 }
 
 .cartao__botao--mega {
     border-color: var(--planos-cartao-mega);
 }
+
+.cartao__botao--mega:hover {
+    background-color: var(--planos-cartao-mega);
+    border-color: white;
+    color: white
+}
+
+
+
 @media screen and (min-width: 768px){
     .cartao {
         max-width: 400px;
